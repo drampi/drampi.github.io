@@ -97,26 +97,21 @@
                         <img src="" alt="кейс_01">
                         <input type="submit" value=">">
                     </div>
-                    <div class="case_description">
-                        <table>
-                            <tr>
-                                <td>
-                                    <h4>Client:</h4>
-                                    <p>Какая-то компания</p>
-                                    <h4>Website:</h4>
-                                    <p>https://www.somedomain.com</p>
-                                    <input type="submit" value="VISIT LIVE SITE">
-                                </td>
-                                <td>
-                                    <p>Lorem ipsum.</p>
-                                </td>
-                            </tr>
-                        </table>
+                    <div class="case_info">
+                        <div class="case_company_info">
+                            <h4>Client:</h4>
+                            <p>Какая-то компания</p>
+                            <h4>Website:</h4>
+                            <p>https://www.somedomain.com</p>
+                            <input type="submit" value="VISIT LIVE SITE">
+                        </div>
+                        <div class="case_description">
+                            <p>Lorem ipsum.</p>
+                        </div>
                     </div>
                 </li>
             </ol>
         </div>
-
     </div>
 </div>
 
@@ -150,16 +145,14 @@
         <img src="" alt="линия подитога">
 
         <div class="price_calculated">
-            <table>
-                <tr>
-                    <td>Сроки</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Стоимость</td>
-                    <td>0</td>
-                </tr>
-            </table>
+            <div class="price_calculated_estimate">
+                <span>Сроки</span>
+                <span>0</span>
+            </div>
+            <div class="price_calculated_price">
+                <span>Стоимость</span>
+                <span>0</span>
+            </div>
         </div>
     </div>
 </div>
@@ -234,22 +227,16 @@
         </ol>
 
         <h4>Оставьте мне сообщение</h4>
-        <table>
-            <tr>
-                <td>
-                    <input type="text" name="name" placeholder="Введите ваше имя">
-                </td>
-                <td>
-                    <input type="email" name="email" placeholder="Email">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="text" name="message" placeholder="Сообщение">
-                </td>
-            </tr>
-        </table>
-        <input type="submit" value="Отправить">
+        <div class="contacts_form">
+            <div class="contacts_form_from">
+                <input type="text" name="name" placeholder="Введите ваше имя">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="contacts_form_message">
+                <input type="text" name="message" placeholder="Сообщение">
+            </div>
+            <input type="submit" value="Отправить">
+        </div>
 
         <ol>
             <li>
